@@ -84,9 +84,56 @@
     margin-bottom: 0px;
     padding: 20px 60px;
     font-size: 35px;
-    margin-top: 20PX;
+    margin-top: 30PX;
+    
     
 }
 .hero-container button:hover{
    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.193);
+}
+
+/*speaker section*/
+
+.speaker-parent-container{
+    padding: 20px;
+    align-items: center;
+}
+.speaker-parent-container h1{
+    font-size: 70px;
+    text-align: center;
+    padding: 60px;
+}
+
+.speaker-photo-parent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+
+}
+
+.speaker-photo{
+
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.speaker-photo p,h3{
+    padding: 12px 20px;
+}
+.speaker-category{
+    color: #2563EB;
+}
+
+.speaker-company{
+    color: #575757;
+
+
+
+.speaker-photo-parent img{
+    width: 100%; 
+    border-radius: 10px 10px 0 0;
 }
