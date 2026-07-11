@@ -1,7 +1,8 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'open sans', sans-serif;
+    font-family: "Inter", sans-serif;
+  
 }
 .container{
     max-width: 1500px;
@@ -16,7 +17,7 @@
     align-items: center;    
 }
 
-.nav-list ul, li , a{
+.nav-list ul, .nav-list li , a{
     text-decoration: none;
     color: #575757;
     list-style-type: none;
@@ -37,6 +38,7 @@
     color: white;
     cursor: pointer;
     transition: 0.3s;
+    font-weight: bold;
     
 }
 
@@ -85,6 +87,7 @@
     padding: 20px 60px;
     font-size: 35px;
     margin-top: 30PX;
+    font-weight: bold;
     
     
 }
@@ -130,10 +133,129 @@
 
 .speaker-company{
     color: #575757;
-
+}
 
 
 .speaker-photo-parent img{
     width: 100%; 
     border-radius: 10px 10px 0 0;
+}
+
+/* secure spot section*/
+
+.spot-parent-container{
+    align-items: center;
+    padding: 150px ;
+    text-align: center;
+
+}
+.spot-card-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 50px;
+    text-align: left;
+}
+
+.spot-card-parent h4{
+margin-top: 40px;
+padding: 5px 30px;
+}
+.spot-card-parent h1,
+.spot-card-parent p,
+.spot-card-parent ul
+{
+    padding: 5px 30px;
+
+}
+.spot-card-parent li{
+    padding: 5px;
+    list-style: none;
+}
+/*for divider in side the card */
+.spot-card-parent hr{
+    border:none;
+    height:1px;
+    background:#ddd;
+    margin:25px 25px;
+}
+.card-2 hr{
+    background-color: rgba(255,255,255,.15);
+}
+/* .card-inside-div{
+    width: 400px;
+    align-items: auto;
+} */
+.card-1{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 450px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+/* instead of list-style */
+.spot-card-parent li::before{
+    content: "•";
+    color: #2563EB;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+/* .spot-card-parent li::marker{
+    
+    padding: 5px 30px;
+} */
+
+.card-2{
+    background-color: #0D1B2A ;
+    color: white;
+    height: 500px;
+    width: 450px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(10px);
+
+}
+
+.card-3{
+    background-color:rgb(255, 255, 255);
+    height: 500px;
+    width: 450px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-1 button{
+    background-color: white;
+    border: 1px solid #2563EB;
+    color: #2563EB;
+    width: 90%;
+    margin: 20px 20px;
+    font-size: 18px;
+}
+.card-2 button{
+    width: 90%;
+    margin: 20px 20px;
+    font-size: 18px;
+}
+.card-3 button{
+    background-color: white;
+    border: 1px solid #000000;
+    color: #000000;
+    width: 90%;
+    margin: 20px 20px;
+    font-size: 18px;
+}
+
+.card{
+    transition: .3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,.2);
 }
