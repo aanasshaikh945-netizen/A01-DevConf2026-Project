@@ -17,7 +17,7 @@
     align-items: center;    
 }
 
-.nav-list ul, .nav-list li , a{
+.nav-list ul, .nav-list li , .nav-list a{
     text-decoration: none;
     color: #575757;
     list-style-type: none;
@@ -124,7 +124,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.speaker-photo p,h3{
+.speaker-photo p,.speaker-photo h3{
     padding: 12px 20px;
 }
 .speaker-category{
@@ -354,7 +354,7 @@ padding: 5px 30px;
     cursor:pointer;
 }
 
-/* CAT section*/
+/* CTA section*/
 
 .cta{
     width:100%;
@@ -391,6 +391,7 @@ padding: 5px 30px;
     background:white;
     color:#2563EB;
     padding:18px 38px;
+    border: 1px solid #2563EB;
     border-radius:10px;
     font-size:18px;
     font-weight:600;
@@ -400,4 +401,68 @@ padding: 5px 30px;
 .cta-btn a:hover{
     transform:translateY(-4px);
     box-shadow:0 10px 25px rgba(0,0,0,.18);
+}
+
+/*footer*/
+
+.footer-parent{
+    background-color: #0D1B2A;
+    height: 380px;
+}
+.footer-parent-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    color: white;
+}
+
+.address img{
+    width: 20px;
+    height: 20px;
+}
+
+.footer-parent-div h3{
+    padding: 10px ;
+    
+}
+
+.quik-links li, .quik-links a, .quik-links h3{
+    text-decoration: none;
+    color: #ffffff;
+    list-style: none;
+    text-align: left;
+    padding: 8px 0px;
+}
+
+.subscribe input {
+    padding: 12px 40px;
+    border: none;
+    border-radius: 10px;
+    display: block;
+
+
+}
+.subscribe h3{
+    text-align: left;
+    padding: 8px 0px;
+} 
+.subscribe button{
+    margin: 20px 0px;
+    padding: 12px 40px;
+    display: block;
+}
+
+.subscribe img{
+    padding: 10px 0px;
+    text-align: left;
+    gap: 8px;
+}
+
+.footer-parent p {
+    color: white;
+}
+
+.all-right p, .all-right hr{
+    margin-top: 8px;
+    text-align: center;
 }
