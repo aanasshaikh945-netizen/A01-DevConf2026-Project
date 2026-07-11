@@ -145,9 +145,17 @@
 
 .spot-parent-container{
     align-items: center;
-    padding: 150px ;
+    padding: 100px ;
     text-align: center;
 
+}
+
+.spot-parent-container p{
+    padding: 20px ;
+}
+
+.spot-parent-h1-text{
+    font-size: 60px;
 }
 .spot-card-parent{
     display: flex;
@@ -258,4 +266,138 @@ padding: 5px 30px;
 .card:hover{
     transform:translateY(-10px);
     box-shadow: 0 20px 40px rgba(0,0,0,.2);
+}
+
+
+/*schedule and venue section */
+
+.event-section{
+    width:100%;
+    margin:0px auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:40px;
+}
+
+/*schedule*/
+
+.schedule{
+    width:58%;
+}
+.schedule h2{
+    font-size:38px;
+    margin-bottom:30px;
+}
+.schedule-card{
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+.schedule-item{
+    display:flex;
+    padding:20px 25px;
+    border-bottom:1px solid #eee;
+}
+.schedule-item:last-child{
+    border-bottom:none;
+}
+.schedule-item span{
+    width:140px;
+    color:#2563EB;
+    font-weight:700;
+}
+.schedule-item p{
+    color:#444;
+}
+
+
+/* venue section*/
+
+.venue{
+    width:42%;
+}
+.venue h2{
+    font-size:38px;
+    margin-bottom:30px;
+}
+.venue img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:12px;
+    margin-bottom:25px;
+}
+.venue-card-parent{
+    display:flex;
+    gap:15px;
+}
+.venu-card{
+    border:1px solid #e5e7eb;
+    border-radius:10px;
+    padding:15px;
+    box-shadow:0 5px 10px rgba(0,0,0,.05);
+}
+.venu-card h4{
+    color:#2563EB;
+    margin-bottom:8px;
+}
+.venue-btn{
+    margin-top:25px;
+    width:100%;
+    padding:14px;
+    border:none;
+    background:#2563EB;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+/* CAT section*/
+
+.cta{
+    width:100%;
+    height:200px;
+    margin:70px auto;
+    background:#2563EB;
+    border-radius:18px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 70px;
+    box-sizing:border-box;
+}
+
+.cta-text{
+    width:65%;
+}
+
+.cta-text h2{
+    color:white;
+    font-size:48px;
+    margin-bottom:18px;
+}
+
+.cta-text p{
+    color:#dbeafe;
+    font-size:18px;
+    line-height:30px;
+}
+
+.cta-btn a{
+    display:inline-block;
+    text-decoration:none;
+    background:white;
+    color:#2563EB;
+    padding:18px 38px;
+    border-radius:10px;
+    font-size:18px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.cta-btn a:hover{
+    transform:translateY(-4px);
+    box-shadow:0 10px 25px rgba(0,0,0,.18);
 }
